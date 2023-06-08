@@ -27,6 +27,6 @@ bot = EchoBot()
 # one. We strongly recommend adding this key for a production bot to prevent abuse,
 # but the starter example disables the key check for convenience.
 POE_API_KEY = "fIX5eeG4cLG7cJvE8cFZqIg7IUAmPsHe"
-# app = make_app(bot, api_key=POE_API_KEY)
+app = make_app(bot, api_key=POE_API_KEY)
 
-app = make_app(bot, allow_without_key=True)
+#app = make_app(bot, allow_without_key=True)
